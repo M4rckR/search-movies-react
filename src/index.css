@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Estilos de el Nav */
+.barra-navegacion {
+    @apply container mx-auto px-4 md:px-0 py-4 flex items-center justify-between ;
+}
+
+.barra-navegacion__creador {
+    @apply bg-white inline-block px-4 py-2 rounded-lg font-bold;
+}
+
+.barra-navegacion__nombre-prueba {
+    @apply text-white font-bold
+}
